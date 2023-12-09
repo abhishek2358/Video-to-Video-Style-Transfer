@@ -49,5 +49,33 @@ Output Videos:
 
 
 ### Arbitrary Image Stylization Model:
+## Setup the environnment
 
-<TODO>
+### Run with virtualenv
+
+Create a virtualenv with python3.6 or python3.7. Older versions are not supported due to a lack of compatibilty with pytorch.
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+## Usage
+Stylize Image to Video
+```
+python ./Arbitrary Image Stylization/style_frames_v2.py --root_path </path/to/root> --input_video <input video name> --V2V_flag False --output_video <output video name>
+
+Stylize Video to Video
+```
+python ./Arbitrary Image Stylization/style_frames_v2.py --root_path </path/to/root> --input_video <input video name> --style_source_video <source video name> --V2V_flag False --output_video <output video name> --keyframe_count <keyframe count>
+
+```
+* `--root-path`: path to root folder of Arbitrary Image Stylization.
+* `--input_video`: input video name (filetype supported mov)
+* `--style_source_video`: style source video name (filetype supported mov)
+* `--V2V_flag`: Flag to set whether we want to run image to video style transfer or video to video style transfer. (ex: True for V2V style transfer)
+* `--output_video`: output video name
+* `--keyframe_count`: Number of styles to extract from source video
+
+
