@@ -44,11 +44,19 @@
         ```
         python ./Arbitrary Image Stylization/style_frames_v2.py --root_path </path/to/root> --input_video <input video name> --V2V_flag False --output_video <output video name>
         ```
+        For example, to generate video style transfer on short.mov using multi[ple styles], you have to type the following command:
+        ```
+        python ./Arbitrary Image Stylization/style_frames_v2.py --root_path "./Arbitrary Image Stylization/" --input_video short.mov --V2V_flag False --output_video output.mov
+        ```
         Stylize Video to Video
         ```
         python ./Arbitrary Image Stylization/style_frames_v2.py --root_path </path/to/root> --input_video <input video name> --style_source_video <source video name> --V2V_flag False --output_video <output video name> --keyframe_count <keyframe count>
-
         ```
+        For example, to generate video to video style transfer by extracting style from source_vid and applying to short.mov, you have to type the following command:
+        ```
+        python ./Arbitrary Image Stylization/style_frames_v2.py --root_path "./Arbitrary Image Stylization/" --input_video short.mov --style_source_video source_vid.mov --V2V_flag True --output_video output.mp4 --keyframe_count 5
+        ```
+
         * `--root-path`: path to root folder of Arbitrary Image Stylization.
         * `--input_video`: input video name (filetype supported mov)
         * `--style_source_video`: style source video name (filetype supported mov)
@@ -77,5 +85,13 @@ Output Videos:
 
 ### Arbitrary Image Stylization Model:
 
+### Input Video
+![file](./Arbitrary Image Stylization/examples/muskaan.mov)
+### Example 1
+##### Reference Style Image Transition Sequence
+![file](/examples/source_vid.mov)
+##### Output Video
+![file](/examples/output_video.mp4)
+##### Output Video with Preserved Color
 
 
