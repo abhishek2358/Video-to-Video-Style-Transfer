@@ -38,39 +38,15 @@
 
 #### Image to Video:
 
-Input Video: 
-<div>
-    <video width="320" height="240" controls>
-        <source src="./input_files/adwait_video.mp4" type="video/mp4">
-    </video>
-    <p>Input Video</p>
-</div>
+Input Video: [Link to Input Video](./input_files/adwait_video.mp4)
+
 Style Images:
-<div style="display: flex; flex-direction: row; justify-content: space-around;">
-    <div>
-        <img src="./style_images/style3.jpg" alt="Style1" width="320">
-        <p>Style1</p>
-    </div>
-    <div>
-        <img src="./style_images/style6.jpg" alt="Style2" width="320">
-        <p>Style2</p>
-    </div>
-</div>
+![Style1](./style_images/style3.jpg) ![Style2](./style_images/style6.jpg)
+
 Output Videos:
-<div style="display: flex; flex-direction: row; justify-content: space-around;">
-<div>
-        <video width="320" height="240" controls>
-            <source src="./Neural Style Transfer Model/Outputs/output_adwait_style3.mp4" type="video/mp4">
-        </video>
-        <p>Output Video 1</p>
-    </div>
-    <div>
-        <video width="320" height="240" controls>
-            <source src="./Neural Style Transfer Model/Outputs/output_adwait.mp4" type="video/mp4">
-        </video>
-        <p>Output Video 2</p>
-    </div>
-</div>
+- [Output Video 1](./Neural%20Style%20Transfer%20Model/Outputs/output_adwait_style3.mp4)
+- [Output Video 2](./Neural%20Style%20Transfer%20Model/Outputs/output_adwait.mp4)
+
 
 ### Arbitrary Image Stylization Model:
 
