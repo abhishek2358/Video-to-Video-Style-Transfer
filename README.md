@@ -88,12 +88,11 @@ Output Videos:
 ### Arbitrary Image Stylization Model:
 
 ### Input Video
-![file](./Arbitrary Image Stylization/examples/muskaan.mov)
-### Example 1
-##### Reference Style Image Transition Sequence
-![file](/examples/source_vid.mov)
+https://github.com/abhishek2358/Video-to-Video-Style-Transfer/assets/33133065/e7092c33-bb38-46f7-81af-69ddd38f5f5f
 ##### Output Video
-![file](/examples/output_video.mp4)
+
+https://github.com/abhishek2358/Video-to-Video-Style-Transfer/assets/33133065/55bf05f9-5b29-407b-a41f-5c75651e88d1
+
 ##### Output Video with Preserved Color
 
 
