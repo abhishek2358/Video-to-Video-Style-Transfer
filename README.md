@@ -76,7 +76,9 @@
 Input Video: [Link to Input Video](./input_files/adwait_video.mp4)
 
 Style Images:
-![Style1](./style_images/style3.jpg) ![Style2](./style_images/style6.jpg)
+Style Image 1            |  Style Image 2
+:-------------------------:|:-------------------------:
+![Style1](./style_images/style3.jpg) | ![Style2](./style_images/style6.jpg)
 
 Output Videos:
 - [Output Video 1](./Neural%20Style%20Transfer%20Model/Outputs/output_adwait_style3.mp4)
