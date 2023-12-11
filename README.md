@@ -87,21 +87,21 @@ Output Videos:
 ### Segmentation Model:
 
 ### Input Video
-Input Video: [Link to Input Video](./Segmentation Model/adwait_video.MOV)
+[Link to Input Video](./Segmentation%20Model/adwait_video.mp4)
 
 ##### Output Video
-Output Video: [Link to Input Video](./Segmentation Model/output_video_segmentation_gaussian_blur.mp4)
+[Link to Output Video](./Segmentation%20Model/output_video_segmentation_gaussian_blur.mp4)
 
 ### Arbitrary Image Stylization Model:
 
 ### Input Video
-Input Video: [Link to Input Video](./Arbitrary Image Stylization/examples/muskaan.MOV)
+[Link to Input Video](./Arbitrary%20Image%20Stylization/examples/muskaan.MOV)
 
 ### Source Video
-Source Video: [Link to Input Video](./Arbitrary Image Stylization/examples/source_vid.MOV)
+[Link to Input Video](./Arbitrary%20Image%20Stylization/examples/source_vid.mov)
 
 ##### Output Video
-Output Video: [Link to Input Video](./Arbitrary Image Stylization/examples/output_video.mp4)
+[Link to Input Video](./Arbitrary%20Image%20Stylization/examples/output_video.mp4)
 
 
 
