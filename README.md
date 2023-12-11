@@ -84,11 +84,24 @@ Output Videos:
 - [Output Video 1](./Neural%20Style%20Transfer%20Model/Outputs/output_adwait_style3.mp4)
 - [Output Video 2](./Neural%20Style%20Transfer%20Model/Outputs/output_adwait.mp4)
 
+### Segmentation Model:
+
+### Input Video
+Input Video: [Link to Input Video](./Segmentation Model/adwait_video.MOV)
+
+##### Output Video
+Output Video: [Link to Input Video](./Segmentation Model/output_video_segmentation_gaussian_blur.mp4)
 
 ### Arbitrary Image Stylization Model:
 
 ### Input Video
+Input Video: [Link to Input Video](./Arbitrary Image Stylization/examples/muskaan.MOV)
+
+### Source Video
+Source Video: [Link to Input Video](./Arbitrary Image Stylization/examples/source_vid.MOV)
+
 ##### Output Video
-##### Output Video with Preserved Color
+Output Video: [Link to Input Video](./Arbitrary Image Stylization/examples/output_video.mp4)
+
 
 
